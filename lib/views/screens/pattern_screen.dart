@@ -17,6 +17,7 @@ class PatternScreen extends StatelessWidget {
         padding: const EdgeInsetsDirectional.fromSTEB(20, 20, 20, 50),
         child: Column(
           children: [
+            const Spacer(),
             Consumer<NumProvider>(builder: (context, pro, _) {
               return Column(
                 children: List.generate(
